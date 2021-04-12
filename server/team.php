@@ -1,8 +1,8 @@
 <?php
 // 데이터베이스 정보입력
 $db_host="localhost";
-$db_user="ansgyqja";
-$db_password="Akwldrk1!";
+$db_user="USER";
+$db_password="PASSWORD";
 $db_name="team";
 
 // 데이터베이스 연결
