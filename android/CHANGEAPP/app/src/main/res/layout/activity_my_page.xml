@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프로필 사진"
+        android:textColor="#FFDA70D6"
+        android:layout_marginBottom="10px"
+        android:textSize="100px"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대표 사진을 등록해주세요."
+        android:layout_marginBottom="10px"
+        android:textSize="50px"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/personal_pic"
+            android:layout_width="800px"
+            android:layout_height="800px"
+            android:src="@drawable/profile" />
+        <Button
+            android:id="@+id/pic_upload"
+            android:layout_width="800px"
+            android:layout_height="wrap_content"
+            android:text="사진등록"
+            android:textSize="55px"
+            android:textColor="#FFFFFF"
+            android:background="#FFDA70D6"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/personal_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:text="완료"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
